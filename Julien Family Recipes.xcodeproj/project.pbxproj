@@ -51,6 +51,13 @@
 		ECDE15EE2B103C8200200900 /* Julien Family Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				ECDE16032B103DE700200900 /* Fonts */,
+				ECDE16022B103DD700200900 /* Ulitilies */,
+				ECDE16012B103DCC00200900 /* Data */,
+				ECDE16002B103DB700200900 /* Services */,
+				ECDE15FF2B103DA000200900 /* Models */,
+				ECDE15FE2B103D8600200900 /* ViewModels */,
+				ECDE15FD2B103D7700200900 /* Views */,
 				ECDE15EF2B103C8200200900 /* Julien_Family_RecipesApp.swift */,
 				ECDE15F12B103C8200200900 /* ContentView.swift */,
 				ECDE15F32B103C8400200900 /* Assets.xcassets */,
@@ -65,6 +72,55 @@
 				ECDE15F62B103C8400200900 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECDE15FD2B103D7700200900 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECDE15FE2B103D8600200900 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECDE15FF2B103DA000200900 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECDE16002B103DB700200900 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ECDE16012B103DCC00200900 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ECDE16022B103DD700200900 /* Ulitilies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ulitilies;
+			sourceTree = "<group>";
+		};
+		ECDE16032B103DE700200900 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
