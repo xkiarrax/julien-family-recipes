@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var CKViewModel = CloudKitViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("IS SIGNED IN: \(CKViewModel.isSignedInToiCloud.description.uppercased())")
+            Text(CKViewModel.error)
         }
-        .padding()
+        
     }
+        
 }
 
 #Preview {
