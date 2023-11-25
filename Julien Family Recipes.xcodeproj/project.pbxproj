@@ -22,6 +22,8 @@
 		ECDE16172B1040B800200900 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = ECDE16162B1040B800200900 /* recipes.json */; };
 		ECDE16192B1040FC00200900 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE16182B1040FC00200900 /* Rational.swift */; };
 		ECDE161C2B11164F00200900 /* CloudKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE161B2B11164F00200900 /* CloudKitViewModel.swift */; };
+		ECDE161E2B11400500200900 /* CKCrudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE161D2B11400500200900 /* CKCrudView.swift */; };
+		ECDE16202B118E3100200900 /* SingleRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE161F2B118E3100200900 /* SingleRecipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		ECDE16182B1040FC00200900 /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		ECDE161A2B1112B100200900 /* Julien Family Recipes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Julien Family Recipes.entitlements"; sourceTree = "<group>"; };
 		ECDE161B2B11164F00200900 /* CloudKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitViewModel.swift; sourceTree = "<group>"; };
+		ECDE161D2B11400500200900 /* CKCrudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKCrudView.swift; sourceTree = "<group>"; };
+		ECDE161F2B118E3100200900 /* SingleRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRecipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				ECDE16082B103F1100200900 /* RecipeDetailView.swift */,
 				ECDE160A2B103F3B00200900 /* RecipeTabView.swift */,
 				ECDE160C2B103F5F00200900 /* RecipeHighlights.swift */,
+				ECDE161D2B11400500200900 /* CKCrudView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				ECDE16122B10402D00200900 /* Recipe.swift */,
+				ECDE161F2B118E3100200900 /* SingleRecipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -236,9 +242,11 @@
 				ECDE16192B1040FC00200900 /* Rational.swift in Sources */,
 				ECDE161C2B11164F00200900 /* CloudKitViewModel.swift in Sources */,
 				ECDE15F22B103C8200200900 /* ContentView.swift in Sources */,
+				ECDE16202B118E3100200900 /* SingleRecipe.swift in Sources */,
 				ECDE16112B10400E00200900 /* RecipeModel.swift in Sources */,
 				ECDE16132B10402D00200900 /* Recipe.swift in Sources */,
 				ECDE16072B103EDC00200900 /* RecipeFeaturedView.swift in Sources */,
+				ECDE161E2B11400500200900 /* CKCrudView.swift in Sources */,
 				ECDE15F02B103C8200200900 /* Julien_Family_RecipesApp.swift in Sources */,
 				ECDE16152B10405400200900 /* DataService.swift in Sources */,
 			);

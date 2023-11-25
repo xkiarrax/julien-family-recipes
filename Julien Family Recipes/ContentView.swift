@@ -13,7 +13,20 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("IS SIGNED IN: \(CKViewModel.isSignedInToiCloud.description.uppercased())")
+            Text("Permission Granted? \(CKViewModel.permissionStatus.description.uppercased())")
+            Text("Name: \(CKViewModel.userName)")
             Text(CKViewModel.error)
+            
+            NavigationStack {
+                NavigationLink {
+                    CKCrudView()
+                } label: {
+                    Text("Go to CRUDView!")
+                        .font(.headline)
+                        .foregroundStyle(Color.indigo)
+                }
+                .padding()
+            }
         }
         
     }
